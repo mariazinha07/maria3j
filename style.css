@@ -31,14 +31,14 @@
 }
 
 .botao{
-    background-color: #356fec;
-    color: #FFFFFF;
+    background-color: #bdbdbd;
+    color: #030101;
     justify-content: center;
     align-items: center;
     width: 100%;
     font-size: 18px;
     padding: 1cm;
-    border-bottom:4px #5FFF57;
+    border-bottom:4px #57ffff;
     border-left:2px #ffffff;
     border-right:2px #ffffff;
 
@@ -56,6 +56,11 @@
     border-radius: 0px 0px 20px 20px;
 }
 
+.ativo{
+  background-color: var(--botao-ativo);
+  border-bottom: 2px solid var(--verde);
+}
+  
 @media screen and (min-width: 700px){
     .botoes{
         display: flex;
